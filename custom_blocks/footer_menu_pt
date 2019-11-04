@@ -1,6 +1,7 @@
-<div class="container">
+<div class="footerMenu">
   <div class="row">
-      <div class="col-md-2 colheader"><a href="porbiota">Sobre o PORBIOTA</a></div>
+      <div class="col-md-2">
+        <span class="footMenuHeader"><a href="porbiota">Sobre o PORBIOTA</a></span>
         <ul>
           <li><a href="porbiota">Missão e Visão</li>
           <li><a href="porbiota/objectivos">Objectivos</li>
@@ -8,27 +9,38 @@
           <li><a href="porbiota/membros">Membros</li>
           <li><a href="porbiota/internacional">Ligações internacionais</li>
         </ul>
-      <div class="col-md-2 colheader"><a href="areas">Áreas Temáticas</a></div>
+      </div>
+      <div class="col-md-2">
+        <span class="footMenuHeader"><a href="porbiota">Áreas Temáticas</a></span>
         <ul>
           <li><a href="areas/biodiversidade">Dados de espécies</li>
-          <li><a href="porbiota/geneticos">Dados genéticos</li>
-          <li><a href="porbiota/lter">LTER</li>
-          <li><a href="porbiota/icos">Fluxos de carbono</li>
+          <li><a href="areas/geneticos">Dados genéticos</li>
+          <li><a href="areas/lter">LTER</li>
+          <li><a href="areas/icos">Fluxos de carbono</li>
         </ul>
-      <div class="col-md-2 colheader"><a href="http://www.gbif.pt">Dados</a></div>
+      </div>
+      <div class="col-md-2">
+       <span class="footMenuHeader"><a href="http://www.gbif.pt">Dados</a></span>
         <ul>
           <li><a href="dados">Plataforma de dados</li>
         </ul>
-      <div class="col-md-2 colheader"><a href="http://www.gbif.pt">Notícias e Eventos</a></div>
-      <ul>
-        <li><a href="news">Notícias</li>
-        <li><a href="news/events">Eventos</li>
-      </ul>
-      <div class="col-md-2 colheader"><a href="http://www.gbif.pt">Recursos e Serviços</a></div>
+      </div>
+      <div class="col-md-2">
+        <span class="footMenuHeader"><a href="http://www.gbif.pt">Notícias e Eventos</a></span>
+        <ul>
+          <li><a href="news">Notícias</li>
+          <li><a href="news/events">Eventos</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+         <span class="footMenuHeader"><a href="http://www.gbif.pt">Recursos e Serviços</a></span>
         <ul>
           <li><a href="resources">Recursos</li>
           <li><a href="resources/services">Serviços</li>
         </ul>
-      <div class="col-md-2 colheader"><a href="http://www.gbif.pt">Contactos</a></div>
+      </div>
+      <div class="col-md-2">
+        <span class="footMenuHeader"><a href="http://www.gbif.pt">Contactos</a></span>
+      </div>
   </div>
 </div>

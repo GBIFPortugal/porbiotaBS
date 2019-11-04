@@ -1,0 +1,46 @@
+<div class="footerMenu">
+  <div class="row">
+      <div class="col-md-2">
+        <span class="footMenuHeader"><a href="porbiota">About PORBIOTA</a></span>
+        <ul>
+          <li><a href="porbiota">Mission and Vision</li>
+          <li><a href="porbiota/objectivos">Objectives</li>
+          <li><a href="porbiota/projecto">Project</li>
+          <li><a href="porbiota/membros">Members</li>
+          <li><a href="porbiota/internacional">International links</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <span class="footMenuHeader"><a href="porbiota">Thematic areas</a></span>
+        <ul>
+          <li><a href="areas/biodiversidade">Species data</li>
+          <li><a href="areas/geneticos">Genetic sequences</li>
+          <li><a href="areas/lter">LTER</li>
+          <li><a href="areas/icos">Carbon fluxes</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+       <span class="footMenuHeader"><a href="http://www.gbif.pt">Data</a></span>
+        <ul>
+          <li><a href="dados">Data portal</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <span class="footMenuHeader"><a href="http://www.gbif.pt">News and Events</a></span>
+        <ul>
+          <li><a href="news">News</li>
+          <li><a href="news/events">Events</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+         <span class="footMenuHeader"><a href="http://www.gbif.pt">Resources and Services</a></span>
+        <ul>
+          <li><a href="resources">Resources</li>
+          <li><a href="resources/services">Services</li>
+        </ul>
+      </div>
+      <div class="col-md-2">
+        <span class="footMenuHeader"><a href="http://www.gbif.pt">Contacts</a></span>
+      </div>
+  </div>
+</div>
