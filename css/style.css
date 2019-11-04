@@ -13,10 +13,8 @@ body {
 
 .top_navigation{
   padding-right: 7%;
-  position: fixed;
   overflow: hidden;
   background-color: #EEE;
-  position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   height: 35px;
@@ -70,8 +68,7 @@ body {
     background-color: #ffffff;
     border-color: #ffffff;
     height: 120px;
-    margin-top: 35px;
-    padding-top: 20px;
+    padding-top: 10px;
     /*float: right;*/
     z-index: 9;
     border-bottom: 1px solid #ccc;
@@ -81,17 +78,59 @@ body {
 
 .navbar-inverse {
     height: 120px;
-    margin-top: 35px;
-    padding-top: 20px;
+    padding-top: 10px;
+    background: none;
+    border: 0;
+    border-radius: 0;
     /*float: right;*/
     z-index: 9;
+}
+
+.navbar-inverse .menu--main.nav.navbar-nav  li{
+  color: #fff;
 }
 
 .navbar-nav {
   float: right;
 }
 
+.slideshow{
+  position: absolute;
+  margin-top: -140px;
+}
 
+.carousel-caption{
+  padding-bottom: 7%px;
+}
+
+.carousel-caption h3{
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 40px;
+  text-shadow: none;
+  font-size: 35px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.carousel-caption p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 200;
+    text-shadow: none;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.05px;
+    text-align: center;
+    color: #ffffff;
+}
 
 .logo {
   padding-top: 10px;
@@ -104,7 +143,9 @@ body {
   color:#333;
 }
 
-
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
 .menu--main.nav.navbar-nav li {
   font-family: Poppins;
   text-transform: uppercase;
@@ -132,6 +173,53 @@ body {
 
 /* Main Content*/
 
+/* Contadores */
+
+#block-contadores {
+  margin-top: 25%;
+}
+
+.headerCont {
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.14px;
+  text-align: right;
+  color: #3c4341;
+  text-align: center;
+}
+
+.tipoCont{
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  text-align: right;
+  color: #3c4341;
+  text-align: center;
+}
+
+.numberCont {
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.14px;
+  text-align: right;
+  color: #3c4341;
+  text-align: center;
+}
+
+/* Fim Contadores */
 
 .main-container.container-fluid.js-quickedit-main-content {
   margin-top: 121px;

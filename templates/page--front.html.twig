@@ -60,9 +60,6 @@
   <div class="top_navigation">
     {{page.top_navigation}}
   </div>
-  <div>
-    {% include directory ~ '/templates/carousel.html.twig' %}
-  </div>
 {% endif %}
 
 
@@ -102,6 +99,9 @@
         </div>
       {% endif %}
     </header>
+    <div class="slideshow">
+        {% include directory ~ '/templates/carousel.html.twig' %}
+    </div>
   {% endblock %}
 {% endif %}
 
@@ -179,7 +179,6 @@
 {% if page.footer %}
   {% block footer %}
     <footer class="footer {{ container }}" role="contentinfo">
-	  <p>this is front - print once</p>
       {{ page.footer }}
     </footer>
   {% endblock %}

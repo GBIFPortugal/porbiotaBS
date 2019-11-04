@@ -1,3 +1,5 @@
+# porbiota_bs.libraries.yml
+
 framework:
   css:
     theme:
@@ -7,6 +9,10 @@ fonts:
   css:
     theme:
       "//fonts.googleapis.com/css?family=Poppins:200,300,400,700": { type: external }
+
+contadores:
+  js:
+    js/contadores.js: {}
 
 # Uncomment for LESS source JavaScript files.
 #  js:
