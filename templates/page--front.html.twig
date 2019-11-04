@@ -60,6 +60,9 @@
   <div class="top_navigation">
     {{page.top_navigation}}
   </div>
+  <div>
+    {% include directory ~ '/templates/carousel.html.twig' %}
+  </div>
 {% endif %}
 
 
@@ -69,7 +72,7 @@
     {%
       set navbar_classes = [
         'navbar',
-        theme.settings.navbar_inverse ? 'navbar-inverse' : 'navbar-default',
+        'navbar-inverse',
         theme.settings.navbar_position ? 'navbar-' ~ theme.settings.navbar_position|clean_class : container,
       ]
     %}
@@ -102,6 +105,8 @@
   {% endblock %}
 {% endif %}
 
+
+
 {# Main #}
 {% block main %}
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
@@ -126,6 +131,7 @@
       {% endif %}
 
       {# Content #}
+
       {%
         set content_classes = [
           page.sidebar_first and page.sidebar_second ? 'col-sm-6',
@@ -157,6 +163,7 @@
         {% endblock %}
       </section>
 
+
       {# Sidebar Second #}
       {% if page.sidebar_second %}
         {% block sidebar_second %}
@@ -172,6 +179,7 @@
 {% if page.footer %}
   {% block footer %}
     <footer class="footer {{ container }}" role="contentinfo">
+	  <p>this is front - print once</p>
       {{ page.footer }}
     </footer>
   {% endblock %}
