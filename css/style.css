@@ -59,6 +59,14 @@ body {
 
 /* Header e Navbar*/
 
+
+
+.navbar-btn>img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
 .navbar {
   padding-left: 6%;
   padding-right: 6%;
@@ -94,43 +102,7 @@ body {
   float: right;
 }
 
-.slideshow{
-  position: absolute;
-  margin-top: -140px;
-}
 
-.carousel-caption{
-  padding-bottom: 7%px;
-}
-
-.carousel-caption h3{
-  text-transform: uppercase;
-  font-family: Poppins;
-  font-size: 40px;
-  text-shadow: none;
-  font-size: 35px;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 3.5px;
-  text-align: center;
-  color: #ffffff;
-
-}
-
-.carousel-caption p{
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 200;
-    text-shadow: none;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: 0.05px;
-    text-align: center;
-    color: #ffffff;
-}
 
 .logo {
   padding-top: 10px;
@@ -169,14 +141,74 @@ body {
   background: #FFF;
 }
 
+/* Slideshow */
+
+.slideshow{
+  position: absolute;
+  margin-top: -140px;
+}
+
+.carousel-caption{
+  padding-bottom: 7%;
+}
+
+.carousel-caption h3{
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 40px;
+  text-shadow: none;
+  font-size: 35px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.carousel-caption p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 200;
+    text-shadow: none;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.05px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.buttonSlideshow{
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 20px;
+  color: #fff;
+  letter-spacing: 2.14px;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  display: block;
+  margin: auto;
+  width: 230px;
+  background: none;
+}
+
+/* End Slideshow */
+
 /* Fim Header e Navbar*/
 
 /* Main Content*/
 
-/* Contadores */
+/* Block Contadores Front */
 
 #block-contadores {
-  margin-top: 25%;
+  margin-top: 30%;
+  padding-top:20px;
+  margin-left: 6%;
+  margin-right: 6%;
 }
 
 .headerCont {
@@ -219,7 +251,189 @@ body {
   text-align: center;
 }
 
+.buttonPortal{
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 20px;
+  letter-spacing: 2.14px;
+  border: 2px solid #000;
+  border-radius: 0px;
+  display: block;
+  margin: auto;
+  width: 230px;
+}
+
 /* Fim Contadores */
+
+/* Block Recursos e Serviços Frontpage */
+
+.block-views-blockrecursosservicos-frontpage-block-1{
+  padding-top:20px;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.block-views-blockrecursosservicos-frontpage-block-1 h2{
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.14px;
+  text-align: right;
+  color: #3c4341;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.block-views-blockrecursosservicos-frontpage-block-1 h3{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.14px;
+  text-align: right;
+  color: #3c4341;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#views-bootstrap-recursosservicos-frontpage-block-1 .views-field-title {
+  padding-bottom: 10px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.06px;
+  color: #3c4341;
+}
+
+
+
+#views-bootstrap-recursosservicos-frontpage-block-1 .views-field-field-short-description {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.04px;
+    color: #666e6c;
+}
+
+
+/* Fim Block Recursos e Serviços Frontpage */
+
+/* Block Notícias Frontpage */
+
+.block-views-blocknoticias-frontpage-block-1{
+  padding-top:20px;
+  margin-left: 6%;
+  margin-right: 6%;
+  border-bottom: 1px solid #ddd;
+}
+
+.block-views-blocknoticias-frontpage-block-1 h2{
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.14px;
+  text-align: right;
+  color: #3c4341;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.block-views-blocknoticias-frontpage-block-1 h3{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.14px;
+  text-align: right;
+  color: #3c4341;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#views-bootstrap-noticias-frontpage-block-1 .views-field-created{
+  color: #666e6c;
+}
+
+#views-bootstrap-noticias-frontpage-block-1 .views-field-title {
+  padding-bottom: 10px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.06px;
+  color: #3c4341;
+}
+
+
+
+#views-bootstrap-noticias-frontpage-block-1 .views-field-body {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 200;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.04px;
+    color: #666e6c;
+}
+
+/* Fim Block Notícias Frontpage */
+
+/* Block Eventos Frontpage */
+
+.block-views-blockevents-frontpage-block-1{
+  margin-left: 6%;
+  margin-right: 6%;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 80px;
+}
+
+.block-views-blockevents-frontpage-block-1 h2{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.14px;
+  text-align: right;
+  color: #3c4341;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 0px;
+}
+
+.views-field-field-venue-of-event{
+  padding-top: 80px;
+  padding-bottom: 40px;
+  margin-left: 20px;
+}
+
+/* Fim Eventos Frontpage */
+
 
 .main-container.container-fluid.js-quickedit-main-content {
   margin-top: 121px;

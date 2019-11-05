@@ -1,27 +1,32 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12 headerCont">
-      <p>Recursos disponíveis via PORBIOTA</p>
+      <p>Dados e recursos disponíveis via PORBIOTA</p>
     </div>
   </div>
   <hr>
     <div class="row">
         <div class="col-md-3">
-            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?country=PT" id="totalRecords"></a> Ocorrências de espécies</p>
+            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?country=PT" id="totalRecords"></a>Ocorrências de espécies</p>
             <p class="numberCont">8 052 726</p>
         </div>
         <div class="col-md-3">
-            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?country=PT" id="totalRecords"></a>Espécies sequenciadas</p>
-            <p class="numberCont">8 052 726</p>
+            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?country=PT" id="totalRecords"></a>Espécies com DNA Barcode</p>
+            <p class="numberCont">? ??? ???</p>
         </div>
         <div class="col-md-3">
             <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?publishing_country=PT&advanced=1" id="totalRecordsPT"></a>Sítios da rede LTER</p>
             <p class="numberCont">4</p>
         </div>
         <div class="col-md-3">
-            <p class="tipoCont"><a href="https://www.gbif.org/publisher/search?country=PT" id="totalPublicadoresPT"></a> Estações de medição de fluxos de carbono</p>
+            <p class="tipoCont"><a href="https://www.gbif.org/publisher/search?country=PT" id="totalPublicadoresPT"></a>Estações de medição de fluxos de carbono</p>
             <p class="numberCont">4</p>
         </div>
     </div>
     <hr>
+    <div class="row">
+      <div class="col-md-12">
+        <a href="/dados" class="buttonPortal btn btn-default">Portal de dados</a>
+      </div>
+    </div>
 </div>
