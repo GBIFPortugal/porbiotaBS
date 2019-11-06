@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-8">
+    <img class="img-responsive" src="/sites/default/files/logo_fin/FEDER.png" alt="logo FEDER">
+  </div>
+  <div class="col-md-4">
+    <img class="img-responsive" src="/sites/default/files/logo_fin/2017_FCT.png" alt="logo FCT" style="padding-top: 30px;">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-3">
+    <img class="img-responsive" src="/sites/default/files/logo_fin/Norte2020.png" alt="logo Norte 2020">
+  </div>
+  <div class="col-md-3">
+    <img class="img-responsive" src="/sites/default/files/logo_fin/Centro2020r.png" alt="logo Centro 2020">
+  </div>
+  <div class="col-md-3">
+    <img class="img-responsive" src="/sites/default/files/logo_fin/Lisboa2020.png" alt="logo Lisboa2 020">
+  </div>
+
+</div>

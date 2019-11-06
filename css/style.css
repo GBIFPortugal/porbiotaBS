@@ -118,6 +118,11 @@ body {
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
 }
+
+.navbar-inverse .navbar-nav .nav > li > a:hover {
+  color: #fff !important;
+}
+
 .menu--main.nav.navbar-nav li {
   font-family: Poppins;
   text-transform: uppercase;
@@ -293,7 +298,7 @@ body {
 .block-views-blockrecursosservicos-frontpage-block-1 h3{
   font-family: Poppins;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -360,7 +365,7 @@ body {
 .block-views-blocknoticias-frontpage-block-1 h3{
   font-family: Poppins;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
@@ -408,7 +413,7 @@ body {
   margin-left: 6%;
   margin-right: 6%;
   border-bottom: 1px solid #ddd;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .block-views-blockevents-frontpage-block-1 h2{
@@ -433,6 +438,76 @@ body {
 }
 
 /* Fim Eventos Frontpage */
+
+/* Bloco Parcerias Frontpage*/
+
+#block-parcerias {
+  background: #efefef;
+  margin-left: -8%;
+  margin-right: -8%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+#block-parcerias .field--name-body{
+  padding-top: 20px;
+}
+
+#block-parcerias h2 {
+  font-family: Poppins;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.14px;
+  text-align: right;
+  color: #3c4341;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#block-parcerias h3 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.14px;
+  text-align: right;
+  color: #3c4341;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-top: 10px;
+}
+
+#block-parcerias img{
+  padding: 15px;
+}
+/* Fim Bloco Parcerias Frontpage*/
+
+/* Bloco Financiadores Frontpage*/
+
+#block-financiadores h2{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2.14px;
+  text-align: right;
+  color: #3c4341;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 0px;
+}
+
+/* Fim Bloco Financiadores Frontpage*/
+
+
 
 
 .main-container.container-fluid.js-quickedit-main-content {
@@ -459,6 +534,8 @@ h1.page-header{
 .page-header {
   border-bottom: 0px  #fff;
 }
+
+
 
 
 /* article news, sobre, áreas temáticas content type*/
