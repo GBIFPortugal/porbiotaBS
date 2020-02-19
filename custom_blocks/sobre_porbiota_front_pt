@@ -1,0 +1,15 @@
+<<div class="container">
+  <div class="row">
+    <div class="col-md-5 sobreFront">
+      <img class="img-responsive center-block" src="/sites/default/files/slideshow/porbiota_about.jpg" alt="iamgem de árvore">
+    </div>
+      <div class="col-md-7">
+        <h2 class="sobreTitulo">E-Infraestrutura Portuguesa de Informação e Investigação em Biodiversidade (PORBIOTA)</h2>
+        <p class="sobreParag">O <strong>PORBIOTA</strong> é a e-infraestrutura de investigação dedicada à <strong>organização, mobilização, preservação e disseminação de dados de biodiversidade e ambientais</strong>, fornecendo uma plataforma que está ligada à academia, administração pública e sociedade civil. Promove uma agenda nacional para a investigação científica da biodiversidade e dos ecossistemas, disponibilizando o saber necessário para abordar os desafios societais relacionados com a protecção do ambiente e a sustentabilidade. O PORBIOTA está envolvido no LifeWatch ERIC, eLTER, ICOS, DISSCO e GBIF.</p>
+      <div class="row sobreLink">
+        <div class="col-md-12">
+          <p class=""><a href="/porbiota">Sobre o PORBIOTA</a></p>
+      </div>
+    </div>
+  </div>
+</div>

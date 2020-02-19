@@ -1,0 +1,57 @@
+<!-- Rewrite results to rearrange date and venue -->
+
+<div class="row">
+ <div class="col-sm-12 col-md-2">
+   <div class="dayEventGrid">{{ field_data_do_evento }}</div><div class="monthEventGrid">{{ field_data_do_evento_1 }}</div>
+ </div>
+ <div class="col-sm-12 col-md-10">
+   <div class="eventTitleGrid">{{ title }}</div><div class="eventVenueGrid">{{ field_evento_venue}}</div>
+ </div>
+</div>
+<div class="row eventBodyGridRow">
+ <div class="col-sm-12 col-md-2">
+   <div class="line"><hr /></div>
+ </div>
+ <div class="col-sm-12 col-md-10">
+   <div class="eventBodyGrid">{{ body }}</div>
+ </div>
+</div>
+
+<!-- This is for the first event block -->
+<div class="row">
+<div class="col-sm-12 col-md-6">
+  <div class="imagemFirstEvent">{{ field_image }}</div>
+</div>
+<div class="col-sm-12 col-md-6">
+<p class="PRXIMO-EVENTO">Próximo evento</p>
+<div class="row">
+ <div class="col-sm-12 col-md-2">
+   <div class="dayEventGrid">{{ field_data_do_evento }}</div><div class="monthEventGrid">{{ field_data_do_evento_1 }}</div>
+ </div>
+ <div class="col-sm-12 col-md-10">
+   <div class="eventTitleGrid">{{ title }}</div><div class="eventVenueGrid">{{ field_evento_venue }}</div>
+ </div>
+</div>
+<div class="row">
+ <div class="col-sm-12 col-md-2">
+   <div class="line"><hr /></div>
+ </div>
+ <div class="col-sm-12 col-md-10">
+   <div class="eventBodyGrid">{{ body }}</div>
+ </div>
+</div>
+</div>
+</div>
+
+
+<!-- This is for block on top of event items -->
+
+<div class="row">
+ <div class="col-sm-12 col-md-2">
+   <div class="dayEventGrid">{{ field_data_do_evento }}</div>
+   <div class="monthEventGrid">{{ field_data_do_evento_1 }}</div>
+ </div>
+ <div class="col-sm-12 col-md-10">
+   <div class="eventVenueGrid">{{ field_evento_venue}}</div>
+ </div>
+</div>

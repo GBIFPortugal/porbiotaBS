@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 sobreFront">
+      <img class="img-responsive center-block" src="/sites/default/files/slideshow/porbiota_about.jpg" alt="imagem de árvore">
+    </div>
+      <div class="col-md-7">
+        <h2 class="sobreTitulo">Portuguese E-Infrastructure for Information and Research on Biodiversity (PORBIOTA)</h2>
+        <p class="sobreParag"><strong>PORBIOTA</strong> is the Portuguese e-infrastructure targeted at <strong>storing, organising and disseminating biodiversity and environmental data</strong>, providing a platform that connects academia, the public administration and the civil society. It is fostering a national agenda for biodiversity and ecosystems research, making available high-quality knowledge needed to meet societal challenges regarding environmental protection and sustainability. PORBIOTA is engaged in Life Watch ERIC, eLTER, ICOS, DISSCO and GBIF.</p>
+      <div class="row sobreLink">
+        <div class="col-md-12">
+          <p class=""><a href="/porbiota">About PORBIOTA</a></p>
+      </div>
+    </div>
+  </div>
+</div>

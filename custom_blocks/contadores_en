@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 headerCont">
+      <p>Data and resources available through PORBIOTA</p>
+    </div>
+  </div>
+  <hr>
+    <div class="row">
+        <div class="col-md-3">
+            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?country=PT" id="totalRecords"></a>Species occurrences</p>
+            <p class="numberCont">8 052 726</p>
+        </div>
+        <div class="col-md-3">
+            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?country=PT" id="totalRecords"></a>DNA Barcoded species</p>
+            <p class="numberCont">1 317</p>
+        </div>
+        <div class="col-md-3">
+            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?publishing_country=PT&advanced=1" id="totalRecordsPT"></a>LTER sites</p>
+            <p class="numberCont">4</p>
+        </div>
+        <div class="col-md-3">
+            <p class="tipoCont"><a href="https://www.gbif.org/publisher/search?country=PT" id="totalPublicadoresPT"></a>Stations measuring carbon fluxes</p>
+            <p class="numberCont">4</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12">
+        <a href="/dados"> <button type="button" class="buttonPortal btn btn-default">Data platform</button></a>
+      </div>
+    </div>
+</div>
