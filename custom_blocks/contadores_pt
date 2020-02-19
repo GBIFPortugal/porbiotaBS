@@ -12,7 +12,7 @@
         </div>
         <div class="col-md-3">
             <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?country=PT" id="totalRecords"></a>Espécies com DNA Barcode</p>
-            <p class="numberCont">? ??? ???</p>
+            <p class="numberCont">1 317</p>
         </div>
         <div class="col-md-3">
             <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?publishing_country=PT&advanced=1" id="totalRecordsPT"></a>Sítios da rede LTER</p>
