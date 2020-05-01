@@ -121,7 +121,7 @@ a, a:hover {
  }
 }
 
-@media (min-width:76:8px){
+@media (min-width:768px){
 .navbar-default {
     background-color: #ffffff;
     border-color: #ffffff;
@@ -783,7 +783,7 @@ h1.page-header{
   font-stretch: normal;
   line-height: 1.82;
   letter-spacing: 0.17px;
-  color: #3c4341;
+  color: #bdbdbd;
   margin-top: -40px;
   margin-bottom: 40px;
 }
@@ -818,7 +818,7 @@ h1.page-header{
 /* image in news content type*/
 .field--name-field-image {
   padding-top: 40px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -946,7 +946,7 @@ h1.page-header{
 
 .views-field-created, .block-field-blocknodenoticiascreated {
   font-family: 'Poppins', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
