@@ -1,32 +1,56 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12 headerCont">
-      <p>Data and resources available through PORBIOTA</p>
+      <p>PORBIOTA IN NUMBERS</p>
+
+      <p>Data and Resources available</p>
     </div>
   </div>
-  <hr>
-    <div class="row">
-        <div class="col-md-3">
-            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?country=PT" id="totalRecords"></a>Species occurrences</p>
-            <p class="numberCont">8 052 726</p>
-        </div>
-        <div class="col-md-3">
-            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?country=PT" id="totalRecords"></a>DNA Barcoded species</p>
-            <p class="numberCont">1 317</p>
-        </div>
-        <div class="col-md-3">
-            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?publishing_country=PT&advanced=1" id="totalRecordsPT"></a>LTER sites</p>
-            <p class="numberCont">4</p>
-        </div>
-        <div class="col-md-3">
-            <p class="tipoCont"><a href="https://www.gbif.org/publisher/search?country=PT" id="totalPublicadoresPT"></a>Stations measuring carbon fluxes</p>
-            <p class="numberCont">4</p>
-        </div>
+
+
+  <div class="row">
+    <div class="col-md-3">
+      <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?publishing_country=PT&amp;advanced=1">Biodiversity Species occurrences</a></p>
     </div>
-    <hr>
-    <div class="row">
-      <div class="col-md-12">
-        <a href="/dados"> <button type="button" class="buttonPortal btn btn-default">Data platform</button></a>
-      </div>
+
+    <div class="col-md-3">
+      <p class="tipoCont">DNA Barcoded species</p>
     </div>
+
+    <div class="col-md-3">
+      <p class="tipoCont">Long-term Ecological sites</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="tipoCont">GREENHOUSE gas fluxes measuring stations</p>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-3">
+      <p class="numberCont">10 253 878</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="numberCont">1 895</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="numberCont">4</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="numberCont">4</p>
+    </div>
+  </div>
+
+
+  <div class="row">
+
+    <div class="col-md-12"><a class="buttonPortal btn btn-default" href="https://registos.gbif.pt/occurrences/search?q=#tab_mapView">Data Platform</a></div>
+
+    <div class="col-md-12">
+      <hr />
+    </div>
+  </div>
 </div>
