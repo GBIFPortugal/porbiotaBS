@@ -1,32 +1,55 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12 headerCont">
-      <p>Dados e recursos disponíveis via PORBIOTA</p>
+      <p>PORBIOTA EM NÚMEROS</p>
+
+      <p>Dados e Recursos disponíveis&nbsp;</p>
     </div>
   </div>
-  <hr>
-    <div class="row">
-        <div class="col-md-3">
-            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?country=PT" id="totalRecords"></a>Ocorrências de espécies</p>
-            <p class="numberCont">8 052 726</p>
-        </div>
-        <div class="col-md-3">
-            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?country=PT" id="totalRecords"></a>Espécies com DNA Barcode</p>
-            <p class="numberCont">1 317</p>
-        </div>
-        <div class="col-md-3">
-            <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?publishing_country=PT&advanced=1" id="totalRecordsPT"></a>Sítios da rede LTER</p>
-            <p class="numberCont">4</p>
-        </div>
-        <div class="col-md-3">
-            <p class="tipoCont"><a href="https://www.gbif.org/publisher/search?country=PT" id="totalPublicadoresPT"></a>Estações de medição de fluxos de carbono</p>
-            <p class="numberCont">4</p>
-        </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <p class="tipoCont"><a href="https://www.gbif.org/occurrence/search?publishing_country=PT&amp;advanced=1">Ocorrências de espécies de biodiversidade</a></p>
     </div>
-    <hr>
-    <div class="row">
-      <div class="col-md-12">
-        <a href="/dados" class="buttonPortal btn btn-default">Portal de dados</a>
-      </div>
+
+    <div class="col-md-3">
+      <p class="tipoCont">Espécies com DNA Barcode</p>
     </div>
+
+    <div class="col-md-3">
+      <p class="tipoCont">Sítios Ecológios de longo prazo</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="tipoCont">Estações de medição de fluxos de gases de efeito estufa</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <p class="numberCont">10 253 878</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="numberCont">1 895</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="numberCont">4</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="numberCont">4</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <a class="buttonPortal btn btn-default" href="https://registos.gbif.pt/occurrences/search?q=#tab_mapView">Portal de Dados</a>
+    </div>
+
+    <div class="col-md-12">
+      <hr />
+    </div>
+  </div>
 </div>
